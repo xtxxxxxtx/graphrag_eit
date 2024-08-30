@@ -3,7 +3,7 @@ This README provides step-by-step instructions for setting up and running the Gr
 
 ## Get access to required account
 Before proceeding, you must have account on EIT and Sutra. If you need to create a new account, please contact one of the following:
-*  Lavinia X.: lavinia.x@wustl.edu
+* Lavinia Xu: lavinia.x@wustl.edu
 * Jiarui Feng: feng.jiarui@wustl.edu
 
 ## Connect to the server
@@ -22,9 +22,11 @@ To install the Python environment required for GraphRAG, follow these steps:
    ```
    For more detailed information, please refer to [the Miniconda documentation](https://docs.anaconda.com/miniconda/).
 2. Create a new conda environment:
-   To avoid altering the base environment, create a new conda environment using the following command:
+
+   To avoid altering the base environment, create and activate a new conda environment using the following command:
    ```
    conda create --name <environment_name> python==3.11
+   conda activate <environment_name>
    ```
    Please replace `<environment_name>` with your desired name for the environment.
 
