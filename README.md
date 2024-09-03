@@ -38,7 +38,7 @@ To verify that GraphRAG is correctly installed, run:
 ```
 pip show graphrag
 ```
-If the installation is successful, you should see this output:
+If the installation is successful, you should see an output similar (potentially with different versions):
 <img width="1148" alt="Screenshot 2024-08-30 at 10 52 54 AM" src="https://github.com/user-attachments/assets/339a4dea-0ee2-43e7-932c-79486c3b4b74">
 
 ## Navigate to the project folder
